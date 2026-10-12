@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James MH Games</title>
+  <meta name="description" content="Play browser games made by James MH.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>James <span>MH</span> Games</h1>
+    <p>Browser games, free to play. Pick one and jump in.</p>
+    <input id="search" type="search" placeholder="Search games..." aria-label="Search games">
+  </header>
+
+  <main>
+    <div id="tags" class="tags"></div>
+    <section id="grid" class="grid"></section>
+    <p id="empty" class="empty" hidden>No games match that search.</p>
+  </main>
+
+  <footer>&copy; <span id="year"></span> james-mh.com</footer>
+
+  <script src="games.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
