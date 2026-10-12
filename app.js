@@ -58,3 +58,14 @@ search.addEventListener("input", renderGames);
 
 renderTags();
 renderGames();
+
+document.getElementById("game-count").textContent = GAMES.length;
+
+function showTab() {
+  const tab = location.hash === "#games" ? "games" : "about";
+  document.querySelectorAll(".page").forEach(p => (p.hidden = p.id !== tab));
+  document.querySelectorAll(".nav-links a").forEach(a => a.classList.toggle("active", a.dataset.tab === tab));
+  window.scrollTo(0, 0);
+}
+window.addEventListener("hashchange", showTab);
+showTab();

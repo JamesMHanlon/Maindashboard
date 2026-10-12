@@ -3,18 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>James MH Games</title>
-  <meta name="description" content="Play browser games made by James MH.">
+  <title>James MH</title>
+  <meta name="description" content="James MH: game developer portfolio.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <h1>James <span>MH</span> Games</h1>
-    <p>Browser games, free to play. Pick one and jump in.</p>
-    <input id="search" type="search" placeholder="Search games..." aria-label="Search games">
-  </header>
+  <nav class="nav">
+    <a href="#about" class="brand">James <span>MH</span></a>
+    <div class="nav-links">
+      <a href="#about" data-tab="about">About</a>
+      <a href="#games" data-tab="games">Games</a>
+    </div>
+  </nav>
 
-  <main>
+  <main id="about" class="page">
+    <section class="about">
+      <div class="avatar">J</div>
+      <h1>Hi, I'm <span>James</span>.</h1>
+      <p class="lead">I make games. <!-- TODO: a sentence or two about you --></p>
+      <div class="cta">
+        <a class="btn" href="#games">See my games</a>
+        <a class="btn ghost" href="https://github.com/JamesMHanlon">GitHub</a>
+      </div>
+    </section>
+    <section class="stats">
+      <div><strong id="game-count"></strong><span>Games made</span></div>
+    </section>
+  </main>
+
+  <main id="games" class="page" hidden>
+    <header class="hero">
+      <h1>My <span>Games</span></h1>
+      <p>Pick one and jump in.</p>
+      <input id="search" type="search" placeholder="Search games..." aria-label="Search games">
+    </header>
     <div id="tags" class="tags"></div>
     <section id="grid" class="grid"></section>
     <p id="empty" class="empty" hidden>No games match that search.</p>
