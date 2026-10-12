@@ -21,8 +21,8 @@ const GAMES = [
   {
     title: "Nightshift",
     description: "First-person horror. Work the graveyard shift alone at a petrol station while things start to change.",
-    url: null,
-    tags: ["Horror", "3D"],
+    url: "https://www.roblox.com/games/96269031282384/Nightshift",
+    tags: ["Horror", "Roblox"],
     color: "#7c3aed",
     image: null,
   },
