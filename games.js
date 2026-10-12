@@ -28,8 +28,8 @@ const GAMES = [
   },
   {
     title: "Finders & Co.",
-    description: "",
-    url: null,
+    description: "A lost-and-found puzzle game.",
+    url: "https://lostandfound.james-mh.com",
     tags: ["Puzzle"],
     color: "#10b981",
     image: null,
