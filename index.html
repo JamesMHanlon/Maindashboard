@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>James MH</title>
-  <meta name="description" content="James MH: game developer portfolio.">
+  <title>James Hanlon</title>
+  <meta name="description" content="James Hanlon: cyber and cloud security, software development and games.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <nav class="nav">
-    <a href="#about" class="brand">James <span>MH</span></a>
+    <a href="#about" class="brand">James <span>Hanlon</span></a>
     <div class="nav-links">
       <a href="#about" data-tab="about">About</a>
       <a href="#games" data-tab="games">Games</a>
@@ -18,16 +18,72 @@
 
   <main id="about" class="page">
     <section class="about">
-      <div class="avatar">J</div>
-      <h1>Hi, I'm <span>James</span>.</h1>
-      <p class="lead">I make games. <!-- TODO: a sentence or two about you --></p>
+      <div class="avatar">JH</div>
+      <h1>Hi, I'm <span>James Hanlon</span>.</h1>
+      <p class="role">Cyber &amp; Cloud Security &middot; Software Developer</p>
+      <p class="lead">Computer Science graduate (University of Winchester) focused on cloud security, threat prevention and security posture management. I build full-stack tools, and in my spare time I make games.</p>
       <div class="cta">
-        <a class="btn" href="#games">See my games</a>
-        <a class="btn ghost" href="https://github.com/JamesMHanlon">GitHub</a>
+        <a class="btn" href="mailto:james@james-mh.com">Get in touch</a>
+        <a class="btn ghost" href="#games">My games</a>
       </div>
     </section>
-    <section class="stats">
-      <div><strong id="game-count"></strong><span>Games made</span></div>
+
+    <section class="block">
+      <h2>Experience</h2>
+      <article class="item">
+        <div class="item-head"><h3>INTERNSHIP ROLE</h3><span>DATES</span></div>
+        <p class="sub">COMPANY</p>
+        <ul><li>INTERNSHIP DETAILS</li></ul>
+      </article>
+    </section>
+
+    <section class="block">
+      <h2>Featured project</h2>
+      <article class="item">
+        <div class="item-head"><h3>CloudGuard: Cloud-Native Security Platform</h3><span>Dissertation</span></div>
+        <ul>
+          <li>Full-stack cloud security posture management (CSPM) platform with a rules-based compliance scanner checking CIS and NIST controls across AWS (S3, EC2, IAM, CloudTrail, RDS), Azure and GCP.</li>
+          <li>FastAPI (Python) backend and an HTML/CSS/JavaScript frontend showing misconfiguration findings, compliance status and per-resource risk scores.</li>
+          <li>Gradient Boosting classifier (scikit-learn, stratified 5-fold CV) predicts non-compliance risk; a RAG pipeline on the Claude API explains violations in plain English and prioritises fixes.</li>
+        </ul>
+        <div class="chips"><span>Python</span><span>FastAPI</span><span>AWS</span><span>Azure</span><span>GCP</span><span>scikit-learn</span><span>RAG</span></div>
+      </article>
+    </section>
+
+    <section class="block">
+      <h2>Education</h2>
+      <article class="item">
+        <div class="item-head"><h3>BSc (Hons) Computer Science, 2:1</h3><span>2022 – 2025</span></div>
+        <p class="sub">University of Winchester</p>
+      </article>
+      <article class="item">
+        <div class="item-head"><h3>Inclusivity &amp; Wellbeing Representative</h3><span>Esports Society</span></div>
+        <p class="sub">University of Winchester</p>
+        <ul>
+          <li>Point of contact for members on inclusivity and wellbeing, keeping the competitive gaming community supportive and welcoming.</li>
+          <li>Worked with society leadership on mental health awareness and inclusive participation initiatives.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="block">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><h4>Languages</h4><div class="chips"><span>Python</span><span>Bash</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div>
+        <div><h4>Platforms &amp; tools</h4><div class="chips"><span>AWS</span><span>Azure</span><span>Microsoft Entra</span><span>GitHub</span></div></div>
+        <div><h4>Specialisms</h4><div class="chips"><span>Cloud security</span><span>Threat prevention</span><span>Security posture management</span><span>Systems programming</span></div></div>
+      </div>
+    </section>
+
+    <section class="block games-teaser">
+      <h2>Games on the side</h2>
+      <p>Game development is my hobby. I've made <strong id="game-count"></strong> games, from browser multiplayer to a Roblox horror game.</p>
+      <a class="btn ghost" href="#games">Play them &rarr;</a>
+    </section>
+
+    <section class="block contact">
+      <h2>Contact</h2>
+      <p><a href="mailto:james@james-mh.com">james@james-mh.com</a> &middot; <a href="https://github.com/JamesHanlon2002">GitHub</a></p>
     </section>
   </main>
 
