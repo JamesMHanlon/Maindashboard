@@ -5,7 +5,7 @@ const GAMES = [
   {
     title: "Draft for 20",
     description: "Draft a squad, then wait for the reveal to see who wins.",
-    url: "https://game.james-mh.com",
+    url: "https://draftfor20.james-mh.com",
     tags: ["Party", "Multiplayer"],
     color: "#f59e0b",
     image: null,
