@@ -42,4 +42,12 @@ const GAMES = [
     color: "#0ea5e9",
     image: null,
   },
+  {
+    title: "FUT Draft",
+    description: "A football drafting game. Pick players four at a time to build a starting XI, then win a knockout cup.",
+    url: "https://futdraft.james-mh.com",
+    tags: ["Strategy", "Football"],
+    color: "#22c55e",
+    image: null,
+  },
 ];
