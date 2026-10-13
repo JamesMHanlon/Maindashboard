@@ -34,4 +34,12 @@ const GAMES = [
     color: "#10b981",
     image: null,
   },
+  {
+    title: "Rift Draft",
+    description: "A League of Legends drafting game. Pick champions three at a time, set your lanes, and battle bots or friends.",
+    url: "https://riftdraft.james-mh.com",
+    tags: ["Strategy", "Multiplayer"],
+    color: "#0ea5e9",
+    image: null,
+  },
 ];
