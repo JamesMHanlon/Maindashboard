@@ -58,4 +58,12 @@ const GAMES = [
     color: "#c9973a",
     image: null,
   },
+  {
+    title: "Dead Drop SQL",
+    description: "A 1v1 investigation game played with SQL. Query the city records and unmask your rival's cover identity before they find yours. Play online or against a bot.",
+    url: "https://deaddrop.james-mh.com",
+    tags: ["Puzzle", "1v1"],
+    color: "#0a246a",
+    image: null,
+  },
 ];
