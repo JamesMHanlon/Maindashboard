@@ -64,6 +64,6 @@ const GAMES = [
     url: "https://deaddrop.james-mh.com",
     tags: ["Puzzle", "1v1"],
     color: "#0a246a",
-    image: null,
+    image: "images/deaddrop.png",
   },
 ];
