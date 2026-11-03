@@ -8,7 +8,7 @@ const GAMES = [
     url: "https://draftfor20.james-mh.com",
     tags: ["Party", "Multiplayer"],
     color: "#f59e0b",
-    image: null,
+    image: "images/draftfor20.png",
   },
   {
     title: "Skillshot Duel",
@@ -16,7 +16,7 @@ const GAMES = [
     url: "https://skillshotduel.james-mh.com",
     tags: ["Action", "1v1"],
     color: "#3b82f6",
-    image: null,
+    image: "images/skillshot.png",
   },
   {
     title: "Nightshift",
@@ -32,7 +32,7 @@ const GAMES = [
     url: "https://lostandfound.james-mh.com",
     tags: ["Puzzle"],
     color: "#10b981",
-    image: null,
+    image: "images/findersco.png",
   },
   {
     title: "Rift Draft",
@@ -40,7 +40,7 @@ const GAMES = [
     url: "https://riftdraft.james-mh.com",
     tags: ["Strategy", "Multiplayer"],
     color: "#0ea5e9",
-    image: null,
+    image: "images/riftdraft.png",
   },
   {
     title: "FUT Draft",
@@ -48,7 +48,7 @@ const GAMES = [
     url: "https://futdraft.james-mh.com",
     tags: ["Strategy", "Football"],
     color: "#22c55e",
-    image: null,
+    image: "images/futdraft.png",
   },
   {
     title: "Dealdle",
@@ -56,7 +56,7 @@ const GAMES = [
     url: "https://dealdle.james-mh.com",
     tags: ["Daily", "Cards"],
     color: "#c9973a",
-    image: null,
+    image: "images/dealdle.png",
   },
   {
     title: "Dead Drop SQL",
