@@ -50,4 +50,12 @@ const GAMES = [
     color: "#22c55e",
     image: null,
   },
+  {
+    title: "Dealdle",
+    description: "A daily card game. Get dealt seven cards, hold the ones you want, redraw the rest once, and earn badges for your hand.",
+    url: "https://dealdle.james-mh.com",
+    tags: ["Daily", "Cards"],
+    color: "#c9973a",
+    image: null,
+  },
 ];
